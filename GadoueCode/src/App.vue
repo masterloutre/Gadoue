@@ -1,18 +1,19 @@
 <template>
-  <div id="app" class = "wrapper">
+  <div id="app" class = "wrapper full-height">
     <header>
-      <main-menu></main-menu>
+      <main-menu>
+      </main-menu>
     </header>
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
   import MainMenu from '@/components/MainMenu'
-  import HelloWorld from "./components/HelloWorld";
+  import HelloWorld from "./components/HelloWorld"
+  import Intro from './components/Intro'
 export default {
-  components: {HelloWorld, MainMenu},
+  components: {HelloWorld, MainMenu, Intro},
   name: 'app',
 }
 </script>
@@ -29,9 +30,18 @@ export default {
 
 * {
   box-sizing: border-box;
-  overflow: hidden;
 }
 
+html {
+  height : 100%;
+}
+
+body {
+  height : 100%;
+}
+
+#app {
+}
   .line-100 {
     width : 100%
   }
@@ -39,6 +49,24 @@ export default {
   .wrapper {
     padding : 0;
     margin : 0;
+  }
+
+  p {
+    margin : 0;
+    font-family: 'Inconsolata';
+    text-align : left;
+    color : #011515;
+    padding : 0;
+  }
+
+  .basic-text-card {
+    background-color: white;
+    width: 50%;
+    padding : 10px;
+  }
+
+  .full-height {
+    height : 100%;
   }
 
 </style>

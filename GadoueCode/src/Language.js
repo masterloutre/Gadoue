@@ -1,8 +1,8 @@
 class Language {
   constructor() {
     this.state = {
-      english: false;
-      french: true;
+      english: false,
+      french: true
     }
 
   }
