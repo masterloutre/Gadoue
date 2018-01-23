@@ -42,6 +42,10 @@
 
 }
 
+#description .basic-text-card {
+  box-shadow: 0 0 3px white;
+}
+
   .wrapper{
     min-height:100%;
   }

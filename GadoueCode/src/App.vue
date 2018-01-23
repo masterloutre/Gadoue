@@ -83,4 +83,14 @@ h2 {
   text-shadow: 0px 0px 1px #ffffff;
 }
 
+#description {
+  //display : none;
+  opacity: 1;
+  transition : opacity 1s;
+}
+
+#project-preview:hover #description{
+  opacity : 0;
+}
+
 </style>

@@ -38,19 +38,17 @@
 
 #projects {
   //height: auto;
-  background-color: white;
-  padding : 5px;
+  //background-color: white;
+  margin: 5px;
+  padding : 2.5px;
   overflow: hidden;
+  border: solid 2px white;
+  box-shadow: 0 0 3px white;
 }
 
-.project-preview{
-  background-position : center;
-  display : block;
-  height : 400px;
-  width : 70%;
-  margin : 5px;
-  background-image: url('../assets/spn-ospe-01x01.png');
- // :style="{ 'background-image': 'url(' + project.img + ')' }"
+  #projects:first-child {
+    width : 100%;
+  }
 
-}
+
 </style>
