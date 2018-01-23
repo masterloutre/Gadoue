@@ -61,12 +61,26 @@ body {
 
   .basic-text-card {
     background-color: white;
-    width: 50%;
     padding : 10px;
   }
 
   .full-height {
     height : 100%;
   }
+
+  h1 {
+    color : white;
+    font-family: 'khula', sans-serif;
+    font-weight: 800;
+    text-shadow: 0px 0px 4px #ffffff;
+  }
+
+h2 {
+  color : white;
+  font-family: 'khula', sans-serif;
+  font-size : 18px;
+  font-weight: 300;
+  text-shadow: 0px 0px 1px #ffffff;
+}
 
 </style>

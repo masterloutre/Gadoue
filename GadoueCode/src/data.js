@@ -16,3 +16,100 @@ export var _descriptionText = {
         We're not dead, just out of tune
         I'll see you in the neighborhood`
 };
+
+export var _projects = [
+  {
+    title : `This is the projects's title`,
+    date : 2018,
+    type : `code`,
+    preview : 'spn-ospe-01x01.png',
+    description : {
+      english :
+      [
+      `paragraph one : this is what my project is about`,
+      `paragraph two : I care about that`
+      ],
+      french :
+        [
+      `paragraphe un : Voici de quoi parle pon projet`,
+      `paragraphe deux : Voilà ce qui m'interesse`
+      ]
+    }
+  },
+
+  {
+    title : `This is the projects's title`,
+    date : 2018,
+    type : `code`,
+    preview : 'spn-ospe-01x01.png',
+    description : {
+      english :
+        [
+          `paragraph one : this is what my project is about`,
+          `paragraph two : I care about that`
+        ],
+      french :
+        [
+          `paragraphe un : Voici de quoi parle pon projet`,
+          `paragraphe deux : Voilà ce qui m'interesse`
+        ]
+    }
+  },
+
+  {
+    title : `This is the projects's title`,
+    date : 2018,
+    type : `code`,
+    preview : 'spn-ospe-01x01.png',
+    description : {
+      english :
+        [
+          `paragraph one : this is what my project is about`,
+          `paragraph two : I care about that`
+        ],
+      french :
+        [
+          `paragraphe un : Voici de quoi parle pon projet`,
+          `paragraphe deux : Voilà ce qui m'interesse`
+        ]
+    }
+  },
+
+  {
+    title : `This is the projects's title`,
+    date : 2018,
+    type : `code`,
+    preview : 'spn-ospe-01x01.png',
+    description : {
+      english :
+        [
+          `paragraph one : this is what my project is about`,
+          `paragraph two : I care about that`
+        ],
+      french :
+        [
+          `paragraphe un : Voici de quoi parle pon projet`,
+          `paragraphe deux : Voilà ce qui m'interesse`
+        ]
+    }
+  },
+
+  {
+    title : `This is the projects's title`,
+    date : 2018,
+    type : `code`,
+    preview : 'spn-ospe-01x01.png',
+    description : {
+      english :
+        [
+          `paragraph one : this is what my project is about`,
+          `paragraph two : I care about that`
+        ],
+      french :
+        [
+          `paragraphe un : Voici de quoi parle pon projet`,
+          `paragraphe deux : Voilà ce qui m'interesse`
+        ]
+    }
+  },
+]

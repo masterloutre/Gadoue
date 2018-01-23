@@ -23,5 +23,11 @@
 <style scoped>
 #page{
   overflow: scroll;
+  background-image: linear-gradient(coral,cadetblue);
 }
+
+  intro {
+    //position : absolute;
+    z-index : -1;
+  }
 </style>
